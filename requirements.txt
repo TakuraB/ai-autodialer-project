@@ -1,0 +1,9 @@
+tensorflow
+scikit-learn
+pandas
+numpy
+SpeechRecognition
+PyAudio
+gTTS
+playsound==1.2.2
+
