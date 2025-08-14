@@ -74,3 +74,16 @@ Open the `auto_dialer.py` file and paste your ngrok URL into the `NGROK_URL` var
     python auto_dialer.py
 
 Your phone will ring. When you answer, you will be connected to your AI agent.
+
+## Future Enhancements
+
+### LLM-Powered Conversational Engine
+A significant upgrade would be to replace the custom-trained TensorFlow intent model with a powerful Large Language Model (LLM) like Google's **Gemini** or OpenAI's **ChatGPT**.
+
+**How it would work:**  
+Instead of classifying intents, the transcribed user audio would be sent to the LLM's API. The LLM would then generate a natural, context-aware response directly.
+
+**Benefits:**
+- **More Dynamic Conversations:** Move beyond rigid intent-response logic to fluid, human-like dialogue.  
+- **Reduced Training Overhead:** Eliminates the need to collect, label, and train data for new intents.  
+- **Broader Capabilities:** The agent could handle a much wider range of unexpected questions and topics without modification.  
