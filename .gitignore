@@ -1,3 +1,4 @@
 venv/
 data/cleaned_customer_support_data.csv
 data/twcs.csv
+intent_model/
